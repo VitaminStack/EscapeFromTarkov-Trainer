@@ -20,7 +20,7 @@ internal class Health : ToggleFeature
 	public override bool Enabled { get; set; } = false;
 
 	[ConfigurationProperty]
-	public bool VitalsOnly { get; set; } = false;
+	public bool VitalsOnly { get; set; } = true;
 
 	[ConfigurationProperty]
 	public bool RemoveNegativeEffects { get; set; } = true;
