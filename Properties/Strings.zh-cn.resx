@@ -348,6 +348,15 @@
   <data name="FeatureAutomaticGunDescription" xml:space="preserve">
     <value>强制所有武器(甚至是栓动步枪)使用具有可定制射击速度的自动射击模式。</value>
   </data>
+  <data name="PropertyDisableXpPenalty" xml:space="preserve">
+    <value>Disable XP Penalty</value>
+  </data>
+  <data name="PropertyEnableXpMultiplier" xml:space="preserve">
+    <value>Enable XP Multiplier</value>
+  </data>
+  <data name="PropertyXpMultiplier" xml:space="preserve">
+    <value>XP Multiplier</value>
+  </data>
   <data name="FeatureAutomaticGunName" xml:space="preserve">
     <value>全自动射击</value>
   </data>

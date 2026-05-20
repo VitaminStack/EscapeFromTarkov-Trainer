@@ -348,6 +348,15 @@ Colors are stored as an array of 'RGBA' floats</value>
   <data name="FeatureAutomaticGunDescription" xml:space="preserve">
     <value>Force all guns (even bolt action guns) to use automatic firing mode with customizable fire rate.</value>
   </data>
+<data name="PropertyDisableXpPenalty" xml:space="preserve">
+  <value>Disable XP Penalty</value>
+</data>
+<data name="PropertyEnableXpMultiplier" xml:space="preserve">
+  <value>Enable XP Multiplier</value>
+</data>
+<data name="PropertyXpMultiplier" xml:space="preserve">
+  <value>XP Multiplier</value>
+</data>
   <data name="FeatureAutomaticGunName" xml:space="preserve">
     <value>autogun</value>
   </data>

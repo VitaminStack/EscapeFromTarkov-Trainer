@@ -348,6 +348,15 @@ Les couleurs sont stockées sous la forme d'un tableau de valeurs flottantes 'RG
   <data name="FeatureAutomaticGunDescription" xml:space="preserve">
     <value>Force toutes les armes (même les fusils à verrou) à utiliser le mode de tir automatique avec une cadence de tir personnalisable.</value>
   </data>
+  <data name="PropertyDisableXpPenalty" xml:space="preserve">
+    <value>Disable XP Penalty</value>
+  </data>
+  <data name="PropertyEnableXpMultiplier" xml:space="preserve">
+    <value>Enable XP Multiplier</value>
+  </data>
+  <data name="PropertyXpMultiplier" xml:space="preserve">
+    <value>XP Multiplier</value>
+  </data>
   <data name="FeatureAutomaticGunName" xml:space="preserve">
     <value>autogun</value>
   </data>

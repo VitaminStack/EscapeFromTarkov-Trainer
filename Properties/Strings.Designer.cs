@@ -1683,6 +1683,15 @@ namespace EFT.Trainer.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Disable XP Penalty ähnelt.
+        /// </summary>
+        internal static string PropertyDisableXpPenalty {
+            get {
+                return ResourceManager.GetString("PropertyDisableXpPenalty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Display time ähnelt.
         /// </summary>
         internal static string PropertyDisplayTime {
@@ -1724,6 +1733,15 @@ namespace EFT.Trainer.Properties {
         internal static string PropertyEnabled {
             get {
                 return ResourceManager.GetString("PropertyEnabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Enable XP Multiplier ähnelt.
+        /// </summary>
+        internal static string PropertyEnableXpMultiplier {
+            get {
+                return ResourceManager.GetString("PropertyEnableXpMultiplier", resourceCulture);
             }
         }
         
@@ -2435,6 +2453,15 @@ namespace EFT.Trainer.Properties {
         internal static string PropertyX {
             get {
                 return ResourceManager.GetString("PropertyX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die XP Multiplier ähnelt.
+        /// </summary>
+        internal static string PropertyXpMultiplier {
+            get {
+                return ResourceManager.GetString("PropertyXpMultiplier", resourceCulture);
             }
         }
         
