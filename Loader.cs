@@ -5,6 +5,8 @@ using UnityEngine;
 
 namespace EFT.Trainer;
 
+//test
+
 public class Loader
 {
 	private static GameObject HookObject
