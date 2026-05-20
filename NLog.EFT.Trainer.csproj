@@ -15,11 +15,11 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <EFTBasePath>F:\Games\SinglePlayerTarken\SPT</EFTBasePath>
-<EFTDataPath>$(EFTBasePath)\EscapeFromTarkov_Data</EFTDataPath>
-<EFTManagedPath>$(EFTDataPath)\Managed</EFTManagedPath>
-	<EFTBasePath>F:\Games\SinglePlayerTarken\SPT</EFTBasePath>
-<EFTBepInExPath>$(EFTBasePath)\BepInEx</EFTBepInExPath>
-<EFTBepInExPluginsPath>$(EFTBepInExPath)\plugins</EFTBepInExPluginsPath>
+    <EFTDataPath>$(EFTBasePath)\EscapeFromTarkov_Data</EFTDataPath>
+    <EFTManagedPath>$(EFTDataPath)\Managed</EFTManagedPath>
+    <EFTBasePath>F:\Games\SinglePlayerTarken\SPT</EFTBasePath>
+    <EFTBepInExPath>$(EFTBasePath)\BepInEx</EFTBepInExPath>
+    <EFTBepInExPluginsPath>$(EFTBepInExPath)\plugins</EFTBepInExPluginsPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -164,8 +164,8 @@
     <Compile Include="Extensions\WorldInteractiveObjectExtensions.cs" />
     <Compile Include="Features\Aimbot.cs" />
     <Compile Include="Features\Ammunition.cs" />
-    <Compile Include="Features\BaseMapToggleFeature.cs" />
-    <Compile Include="Features\FeatureRenderer.cs" />
+    <Compile Include="FeatureFramework\BaseMapToggleFeature.cs" />
+    <Compile Include="FeatureFramework\FeatureRenderer.cs" />
     <Compile Include="Features\FovChanger.cs" />
     <Compile Include="Features\Durability.cs" />
     <Compile Include="Features\Interact.cs" />
@@ -173,18 +173,18 @@
     <Compile Include="Features\NoMalfunctions.cs" />
     <Compile Include="Features\AutomaticGun.cs" />
     <Compile Include="Features\Bones.cs" />
-    <Compile Include="Features\CachableFeature.cs" />
+    <Compile Include="FeatureFramework\CachableFeature.cs" />
     <Compile Include="Features\Commands.cs" />
     <Compile Include="Features\CrossHair.cs" />
     <Compile Include="Features\ExfiltrationPoints.cs" />
-    <Compile Include="Features\Feature.cs" />
+    <Compile Include="FeatureFramework\Feature.cs" />
     <Compile Include="Features\FeatureFactory.cs" />
     <Compile Include="Features\GameState.cs" />
     <Compile Include="Features\Grenades.cs" />
     <Compile Include="Features\FreeCamera.cs" />
     <Compile Include="Features\Examine.cs" />
     <Compile Include="Features\Hits.cs" />
-    <Compile Include="Features\HoldFeature.cs" />
+    <Compile Include="FeatureFramework\HoldFeature.cs" />
     <Compile Include="Features\Hud.cs" />
     <Compile Include="Features\LootItems.cs" />
     <Compile Include="Features\LootableContainers.cs" />
@@ -208,10 +208,10 @@
     <Compile Include="Features\Stamina.cs" />
     <Compile Include="Features\TemplateHelper.cs" />
     <Compile Include="Features\ThermalVision.cs" />
-    <Compile Include="Features\ToggleFeature.cs" />
+    <Compile Include="FeatureFramework\ToggleFeature.cs" />
     <Compile Include="Features\TrackedItem.cs" />
     <Compile Include="Features\Mortar.cs" />
-    <Compile Include="Features\TriggerFeature.cs" />
+    <Compile Include="FeatureFramework\TriggerFeature.cs" />
     <Compile Include="Features\Ghost.cs" />
     <Compile Include="Features\WallShoot.cs" />
     <Compile Include="Features\Skills.cs" />
@@ -272,6 +272,7 @@
       <LastGenOutput>Strings.jp.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy /Y "$(TargetPath)" "$(EFTManagedPath)"</PostBuildEvent>
